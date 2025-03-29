@@ -14,6 +14,7 @@ def biggestContour(contours):
                 max_area = area
     return biggest
 
+
 def reorder(points):
     points = points.reshape((4, 2))
     new_points = np.zeros((4, 1, 2), dtype=np.int32)
