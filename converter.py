@@ -2,11 +2,11 @@ import cv2
 import numpy as np
 import utlis
 
-pathImage = "zd3.jpg"
+pathImage = "ali.jpg"
 
 
-heightImg = 640
-widthImg = 480
+heightImg = 1080
+widthImg = 810
 
 if __name__ == "__main__":
     
